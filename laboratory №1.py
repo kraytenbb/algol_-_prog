@@ -9,7 +9,7 @@ def y2(x):
 
 def y3(x):
     return math.sin(0.5 * x) - 0.5
-num_points=int(input("Введите N: "))
+    
 def monte_carlo_area(a=6, b=8, num_points=2000000):
     y_min = min(y1(a), y2(a), y3(a), y1(b), y2(b), y3(b))
     y_max = max(y1(a), y2(a), y3(a), y1(b), y2(b), y3(b))
